@@ -1,9 +1,8 @@
-#import "./name-it.typ": name-it
-
+#import "./lib.typ": name-it
 #set page(width: auto, height: auto, margin: 1cm)
 
+=== English
 - #name-it(-5)
-- #name-it(-5, negative-prefix: "minus")
 - #name-it(0)
 - #name-it(1)
 - #name-it(10)

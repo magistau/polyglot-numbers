@@ -1,8 +1,8 @@
 [package]
-name = "name-it"
-version = "0.1.2"
-authors = ["RubixDev"]
-entrypoint = "name-it.typ"
+name = "name-all-the-numbers"
+version = "0.1.0"
+authors = ["IrregularPersona"]
+entrypoint = "lib.typ"
 license = "GPL-3.0-only"
-repository = "https://github.com/RubixDev/typst-name-it"
-description = "Get the English names of integers."
+repository = "https://github.com/IrregularPersona/name-all-the-numbers"
+description = "Get the names of integers in Typst in any language."
