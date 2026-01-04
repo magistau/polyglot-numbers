@@ -65,7 +65,7 @@ Convert the given number into its word representation in your specified language
 
 **Arguments:**
 - `num`: [`int`] or [`str`] The number to name. Strings are accepted to support very large numbers that exceed integer limits.
-- `lang`: [`str`] The language code for conversion. Currently supported: `"en"` (English), `"id"` (Indonesian). Default: `"en"`.
+- `lang`: [`str`] The language code for conversion. Currently supported: `"en"` (English), `"id"` (Indonesian), `"ru"` (Russian). Default: `"en"`.
 - `..options`: Additional language-specific options:
   - `show-and`: [`bool`] (English only) Whether "and" should be used in certain places. For example, "one hundred ten" vs "one hundred and ten". Default: `true`.
 
@@ -75,6 +75,7 @@ Convert the given number into its word representation in your specified language
 - **English** (`"en"`)
 - **French** (`"fr"`)
 - **Indonesian** (`"id"`)
+- **Russian** (`"ru"`)
 
 ## Contributing New Languages
 Want to add support for a new language? Great! Here's how:
