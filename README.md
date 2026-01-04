@@ -73,6 +73,7 @@ Convert the given number into its word representation in your specified language
 
 ## Supported Languages
 - **English** (`"en"`)
+- **French** (`"fr"`)
 - **Indonesian** (`"id"`)
 
 ## Contributing New Languages
